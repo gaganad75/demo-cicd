@@ -22,6 +22,6 @@ jobs:
           port: ${{ secrets.PORT }}
 
           script: |
-            cd /var/www/demo-cicd
+            cd /var/www/demo-cicd 
             git pull origin main
             echo "Deployment Successful!"
